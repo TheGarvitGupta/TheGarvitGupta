@@ -1,0 +1,1019 @@
+[33mcommit f29f6a722dea02eeae6a33e39a459dd916cb0108[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri May 4 22:47:26 2018 -0400
+
+    Hide readonly elements
+
+[33mcommit 4edae50ac843c3485b80116cf39355c630e1661b[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri May 4 22:35:38 2018 -0400
+
+    Cant move to subdirectory of itself
+
+[33mcommit 0b03336cf8d309e0358c6f037454e9ab5246db27[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri May 4 15:47:12 2018 -0400
+
+    Mutex
+
+[33mcommit 3dd5c775a65ba5114efb0328eb6b5a3ab3e48dd3[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri May 4 15:24:53 2018 -0400
+
+    Upload file fix - some testing
+
+[33mcommit 40e29fe55969ca592bd23a561b92741c95e23b6f[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri May 4 14:11:59 2018 -0400
+
+    Prepare for merge conflicts! Directory in KV Storage, Template Integrated, Header Attachment and a bunch of stuff
+
+[33mcommit 3722deffd7a3a85409878a1b40a5d8d16abf93a9[m
+Merge: 98676eb 21ec067
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri May 4 05:58:26 2018 -0400
+
+    Merge
+
+[33mcommit 98676ebab18c7cdb3e7aae2bdc43f884a3d02ee5[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri May 4 05:56:58 2018 -0400
+
+    Gitignore Update
+
+[33mcommit 21ec06750cfa33a649f8a61338f5065abf8e3e80[m
+Merge: ac0be8c d173b0d
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Fri May 4 01:44:02 2018 -0400
+
+    fix conflicts
+
+[33mcommit ac0be8cebc6c9d4947c8923258f97d1fda34f413[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Fri May 4 01:39:00 2018 -0400
+
+    add disable functionality; add button for show tablet; recovery works for single entry in tablet; PENDING: change delimiter in checkpointing
+
+[33mcommit d173b0d8310b58a970330948327a7fadae804087[m
+Merge: 4f407e4 2dd30f3
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu May 3 18:06:29 2018 -0400
+
+    Merged logoutbutton
+
+[33mcommit 4f407e4b851b669d2a4283ef476fa252a206eaa4[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu May 3 18:04:14 2018 -0400
+
+    Drive functions return message, home button, reuse
+
+[33mcommit 2dd30f309369dad915fe72ab140145c6727c3d89[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Thu May 3 17:43:31 2018 -0400
+
+    Support logout
+
+[33mcommit 67084146e19b26c31f412c29bbcc0b51012bc4c5[m
+Merge: 66ca81b 3483daa
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu May 3 16:37:49 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 66ca81b373df5e6ce28e6b8de75f447e4dfae15c[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu May 3 16:37:48 2018 -0400
+
+    commit
+
+[33mcommit 3483daa67c7309c86068dcde0544a96baf884ca6[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Thu May 3 16:36:53 2018 -0400
+
+    Send login, register to backend
+
+[33mcommit 4ffc36a6f377baba7ec97e6118c5a57787c1b280[m
+Merge: 053052f bd53131
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu May 3 15:25:49 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 053052f2f7e1c1fe97f26c9e99b53ca8457996e7[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu May 3 15:25:47 2018 -0400
+
+    admin button for tablet
+
+[33mcommit 7aab7a6c3651648423f2a13c036dde8fcd56d7be[m
+Merge: 3865302 bd53131
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu May 3 15:25:06 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit bd531312ffa3fa5ff5722c2816add8d81b63a369[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Thu May 3 15:24:46 2018 -0400
+
+    Upload method
+
+[33mcommit 38653026dd0f3d697da22d8fbb22197eef8d92d8[m
+Merge: f898d18 95787f5
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 28 23:11:06 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit f898d1836979b003190746bdaca02a974d1c99cd[m
+Merge: 38cd994 f7db4e2
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 28 23:11:03 2018 -0400
+
+    Merge conflicts fix
+
+[33mcommit 358cfaf86aacede961126dec8a9f64834f5d311d[m
+Merge: 0a06dda 95787f5
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Fri Apr 27 22:20:05 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 0a06ddac7cddee6a2b14bb3dcb941e94f43c5a08[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Fri Apr 27 22:19:47 2018 -0400
+
+    Not sure what changes!
+
+[33mcommit 95787f5d13d2cb041f81f7a0d5003dcdfa023f79[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Fri Apr 27 17:00:10 2018 -0400
+
+    recovery done
+
+[33mcommit a1c110d0631f51a8954c4ba960a00bb271933b49[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Fri Apr 27 15:46:35 2018 -0400
+
+    checkpoint every 30 seconds
+
+[33mcommit 2d3d3ceebdace42a5004859ed83294b0bd1c8862[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Fri Apr 27 15:07:18 2018 -0400
+
+    write to log
+
+[33mcommit 38cd9944d7db5e13f3a398c0c4410767f0671026[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 26 22:07:49 2018 -0400
+
+    base Commit
+
+[33mcommit f7db4e258568c93f347d30a580e2da773a9e081b[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 26 15:44:22 2018 -0400
+
+    Add front-end page for disable server
+
+[33mcommit 802d0247f2a48a595f193be307a8a98611a01edb[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 26 03:40:31 2018 -0400
+
+    Display admin table
+
+[33mcommit 85beb61cded457ce239d5bb5ecc65f9d965b9a38[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 26 01:41:15 2018 -0400
+
+    append load, active and tablet information to string
+
+[33mcommit 987dd904605bf6eeb6ae8e4c7b29c8f119f2b564[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 26 00:33:43 2018 -0400
+
+    update diable function
+
+[33mcommit 21c6111be99312737c999229d2de1ec5026bf7ac[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 26 00:30:37 2018 -0400
+
+    working interaction between admin and frontend
+
+[33mcommit 6b1ac4cf3622b4a4a456cf7a0d21e92f5a657cda[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Wed Apr 25 18:48:21 2018 -0400
+
+    read function updates all global maps
+
+[33mcommit 5fbe19a9cd68af20957634caab34d3a18c7be5ea[m
+Merge: 347258c 2de36fa
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Wed Apr 25 16:53:23 2018 -0400
+
+    fix
+
+[33mcommit 347258ccacde08a0fe0ab36d727e697bd3e85d3e[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Wed Apr 25 16:53:05 2018 -0400
+
+    basic front-end admin master interaction ready
+
+[33mcommit 2de36faa094a5e220f99ee4814d52bfda21a6e46[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 16:20:16 2018 -0400
+
+    Error messages
+
+[33mcommit e9c38d6665df28e435859670f2a81fb865d0f3a5[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 15:46:26 2018 -0400
+
+    Show Message Function Addeed
+
+[33mcommit 12e6470a65726cf480ffb207980abe3e96284d49[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 15:42:49 2018 -0400
+
+    Latest
+
+[33mcommit 5e86e41e687612540e37bae56353dbc25035df25[m
+Merge: 7c7ce0b 90b2b6f
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 15:42:12 2018 -0400
+
+    Commit
+
+[33mcommit 7c7ce0bb19e0ba556c2bacb0efdcc9e560d22abb[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 15:41:16 2018 -0400
+
+    Commit
+
+[33mcommit 90b2b6ff8de8e3afc16b6b2df8c51ee2fcc3fd2d[m
+Merge: 47f5231 ff03451
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Wed Apr 25 14:52:01 2018 -0400
+
+    fix conflicsts
+
+[33mcommit 47f523164efa1ca63b01e636f78efea134593f4d[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Wed Apr 25 14:43:44 2018 -0400
+
+    add admin handler
+
+[33mcommit ff03451eb29475433b17425cf135bc7db39d4432[m
+Merge: 3552e5c 40df16d
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 14:28:05 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 3552e5c3da6b74b9ea94e3f4d8bd4c89a893288d[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 14:28:03 2018 -0400
+
+    Create Folder
+
+[33mcommit 40df16d5320c83bdc1d278ee90dbceb0be4a496c[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Wed Apr 25 14:25:35 2018 -0400
+
+    Integrate delete folder and file
+
+[33mcommit 23c24f56bc37669193793a5adfc43df17d22fd4c[m
+Merge: 491e970 8f7df47
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Wed Apr 25 13:52:00 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 491e9707d95a2623bd6084a19650da316012744a[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Wed Apr 25 13:51:09 2018 -0400
+
+    Modify gitignore file
+
+[33mcommit 8f7df47c057805738f202da1008b0e5bd4c5de6a[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 13:45:44 2018 -0400
+
+    Create Folder POST -> GET
+
+[33mcommit a0581d04d8fa85b7cb8550e7805db034796dd3ff[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 13:01:26 2018 -0400
+
+    Fix showButtons, add logError
+
+[33mcommit a820073b7ed805bf720987a86d039f5dff272390[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 12:54:33 2018 -0400
+
+    Bug fix: showbuttons root -> directory
+
+[33mcommit 38c7d1a73a463f45e38a45e090a821c20ddf1005[m
+Merge: d2a613e 1f5a763
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 12:35:40 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit d2a613ed4b4a027f449caadd42149c1bed028df9[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 25 12:35:38 2018 -0400
+
+    Commit
+
+[33mcommit 1f5a763a13f0e31acb44bd99eca6327f1d2c378c[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Wed Apr 25 09:15:28 2018 -0400
+
+    Parse upload file contents
+
+[33mcommit 601c06867ef0dc2fbb692c0385e6b4cb0264047d[m
+Merge: 3757344 ef29837
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 24 20:47:41 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 375734450c173d850097574bf7b54018a4b8b4f7[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 24 20:47:35 2018 -0400
+
+    Drive UI Done, Directory.txt, Upload and create folder to go
+
+[33mcommit ef2983738a9c54efe088cfc9b71e087b91839870[m
+Merge: 1c48b63 e8ddfca
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 16:10:58 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 1c48b63cf7589b5589020251cc35c1e2a716d1ec[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 16:10:31 2018 -0400
+
+    Revert "Add styling changes"
+    
+    This reverts commit 1540340d7eab77cbf63266b3b6acc81c049e412d.
+
+[33mcommit 1540340d7eab77cbf63266b3b6acc81c049e412d[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 16:09:12 2018 -0400
+
+    Add styling changes
+
+[33mcommit f2ad213cb4651f1a047c64f78ec82cba455c8e49[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 16:06:48 2018 -0400
+
+    Add styling changes
+
+[33mcommit e8ddfcafe39271207752f3314e8bdf6b3c002768[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 24 15:56:27 2018 -0400
+
+    UI Fix
+
+[33mcommit 1022b42188aa5cb2e6e4d5a036e7a79d7c2daf69[m
+Merge: 12aa70e 4531232
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 24 15:31:56 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 12aa70ee6d05f5b529e794ac40ca1498cf53db4f[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 24 15:31:53 2018 -0400
+
+    Commit
+
+[33mcommit 4531232cca87f6718a355a3217659b01da452eda[m
+Merge: 88e12b6 034e45c
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 15:27:05 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 88e12b6bf10e94022a6bf631108ed45fc5fd8bf2[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 15:27:01 2018 -0400
+
+    Add content-type for svg
+
+[33mcommit 034e45c12a462fcf5421e6394b0fd628c7b1fa12[m
+Merge: 9276449 99aa3c3
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Tue Apr 24 14:45:49 2018 -0400
+
+    pull fix
+
+[33mcommit 9276449482852191ebf9b30d72c3f57702908926[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Tue Apr 24 14:45:21 2018 -0400
+
+    added buggy code for restart server
+
+[33mcommit 99aa3c3154006e234857955980d7c69073f00acc[m
+Merge: 3091c30 8ea4027
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 13:44:39 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 3091c3075ab3de9eb74fb0d3e0b6d200a67e7f09[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Tue Apr 24 13:44:13 2018 -0400
+
+    Add URL Decoder and support for Views
+
+[33mcommit 8ea4027779394f1a2001b3f43d3623de1e91af2c[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 24 12:40:49 2018 -0400
+
+    Fixed show directory after rename / move / delete
+
+[33mcommit 70fee8a9b20ddc094fb9482c68106dd50040be15[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 21 10:06:42 2018 -0400
+
+    Show current dir and added css
+
+[33mcommit dc63ef8573e81854dbd5566c5a278dfbd37b05a8[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 21 09:50:46 2018 -0400
+
+    Input the config.md file, Show Directory fix
+
+[33mcommit cc9b8ea51ab360dc33640623734719424e347cff[m
+Merge: 2a51f20 90623ea
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 21 09:13:16 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 2a51f20d39d0c3f96c635c21fd452f26a2da3a7d[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 21 09:09:37 2018 -0400
+
+    Deleted Binaries
+
+[33mcommit 90623eabf80950ba8869e0546821fe3f8e50f238[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sat Apr 21 09:03:56 2018 -0400
+
+    Add html methods for drive functions
+
+[33mcommit 2a48f4cb3f50b0322643a2de89b1a37c0c57fb4b[m
+Merge: ea44d9b b034f9f
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Fri Apr 20 11:52:04 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit ea44d9b2a7fe22e691ac606a4aabcc9191b3d2de[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Fri Apr 20 11:45:16 2018 -0400
+
+    Makinging changes to gitignore file
+
+[33mcommit b034f9f8c09d872384b6a8ae7471c5bfb1c85ae2[m
+Merge: b693c5b cb9797b
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 19 18:12:30 2018 -0400
+
+    Fix
+
+[33mcommit b693c5b04f97190a696a310b79816089f55a90f1[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 19 18:11:23 2018 -0400
+
+    Show Directory (Rename, Delete and Move)
+
+[33mcommit cb9797b8f48e3634778f9c2c867a945812b6a145[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 19 18:04:33 2018 -0400
+
+    Fix empty tablet edge case
+
+[33mcommit 31d851a9165c6d6a52e4da005a06114837175a54[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Thu Apr 19 07:53:06 2018 -0400
+
+    Change char arr to string
+
+[33mcommit c7f4e2623fc872a107967a8c0be5f6342b7d0014[m
+Merge: 41dc779 577482f
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Mon Apr 16 01:48:25 2018 -0400
+
+    Drive Functions Complete, before reading directory from filesystem, GET directory and store as a file, and current logic would work. deferring to sessions implementation
+
+[33mcommit 41dc779bbefb647d292babcbe612a4500add019d[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Mon Apr 16 01:46:52 2018 -0400
+
+    Drive Functions Complete, before reading directory from filesystem, GET directory and store as a file, and current logic would work. deferring to sessions implementation
+
+[33mcommit 577482f454d6bde0388d4b38c89522b6b41f4997[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sun Apr 15 21:02:33 2018 -0400
+
+    Retrieve server statistics
+
+[33mcommit 2f34f92a0fec332d8744e21163b7df148e2eaf77[m
+Merge: 82e9597 9fcf680
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sun Apr 15 16:58:52 2018 -0400
+
+    fix conflicts
+
+[33mcommit 82e9597e64eda8aef949c89f25791345e8243cce[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sun Apr 15 16:58:32 2018 -0400
+
+    disable server from heartbeat
+
+[33mcommit 9fcf68073b0cf1798a2f2af528fdfd023aa6c217[m
+Merge: 5bcb482 5f3b06f
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sun Apr 15 15:47:57 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 5bcb48223464453cfc7435d94708438b9c4d7928[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sun Apr 15 15:47:52 2018 -0400
+
+    Add Sessions
+
+[33mcommit 5f3b06f3ad4efbe9b69e8b00a376b3ebd39dd1d1[m
+Merge: e5e7817 b9a82e4
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 15 15:46:39 2018 -0400
+
+    No Binaries
+
+[33mcommit e5e7817f3283493be9b24c7f2028d1b6a3193010[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 15 15:46:14 2018 -0400
+
+    Drive WIP
+
+[33mcommit b9a82e44dc5ec0b964ea750c2f6ed49d7e81d487[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sun Apr 15 15:05:33 2018 -0400
+
+    heartbeat request goes every 5 seconds
+
+[33mcommit 83d7d86a0fe141863ebf63e36d1c2f8e6b704aaa[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sun Apr 15 15:00:19 2018 -0400
+
+    Working minimum load retrieval from master
+
+[33mcommit 5857ff263f29398713ddf1d1236cbea8fddc2def[m
+Merge: dde77ce a57a63a
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sun Apr 15 14:40:50 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit dde77ce826ade2fd0f1e480bb43a623a9da404af[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sun Apr 15 14:36:23 2018 -0400
+
+    Add Set-Cookie header
+
+[33mcommit a57a63ab0939adca04d339f3f78a060a94ed2719[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 15 09:44:59 2018 -0400
+
+    Drive WIP - Header Template
+
+[33mcommit 0ab13b802422a4be09efb0f70c177d68a6be1a3e[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 22:06:48 2018 -0400
+
+    Cleanup
+
+[33mcommit 4ec48164eb76ddde5a43caf741dac67b038720e1[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 22:04:52 2018 -0400
+
+    Heartbeat fix - wasn't closing connections (so SIGPIPE should have happened on read, but didn't happen because of SIG Handler)
+
+[33mcommit 299c960a192b1ccdde6271ea9050eccd5573dbfc[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 21:15:23 2018 -0400
+
+    Remove binaries
+
+[33mcommit 49bbb47f960621e8e9197bb9f28678590c099119[m
+Merge: 1a87549 9229935
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 21:14:48 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 1a875491d0fb183d17314f2a16286c773a30b8f1[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 21:14:45 2018 -0400
+
+    Commit
+
+[33mcommit 9229935998d7e9475ae32fe7ad4838eab13e1439[m
+Merge: 6caf290 33fa556
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sat Apr 14 19:56:14 2018 -0400
+
+    conflict
+
+[33mcommit 33fa5563948b1fa2bf5231c610ba96c61e93e866[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 19:54:35 2018 -0400
+
+    WIP
+
+[33mcommit 0b4462a440fa3e4102ddf4ce26db2f44a8abdc6c[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 19:54:14 2018 -0400
+
+    WIP
+
+[33mcommit 6caf290e07fd033e81b7b69a2eccf6ee3d4503df[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sat Apr 14 19:54:08 2018 -0400
+
+    Hearbeat stuff done
+
+[33mcommit fd7c62943ce341cdd88d82d4cb61fff9d684947f[m
+Merge: d8eb25e 8707321
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sat Apr 14 19:05:54 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit d8eb25e753b80688f49aa5aff85dd2cf9c2f9357[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sat Apr 14 19:05:46 2018 -0400
+
+    Integrate show directory
+
+[33mcommit 87073210aa7d25f6f05a8f1dfe05f1f21a74fd3b[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 17:40:51 2018 -0400
+
+    Storage - Make
+
+[33mcommit 84826d012bbe2f497a43b70f307307e29adfd57e[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 17:33:33 2018 -0400
+
+    WIP Drive
+
+[33mcommit df505b7b8302df5dc6bb28514ee5f271e6a604e2[m
+Merge: d7b83a0 bcbe3b4
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sat Apr 14 17:32:50 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit d7b83a099e7c304bcacfa9e7f93a16d738a7e6a2[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Sat Apr 14 17:32:43 2018 -0400
+
+    GET params, redirect
+
+[33mcommit bcbe3b41042b76663c1a154bbce24f7a7184ce02[m
+Merge: 8d8930f 50dcf9a
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 17:32:00 2018 -0400
+
+    OBJ Removed
+
+[33mcommit 8d8930fd900aa5e3ae20fab032cc5c05071afa09[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 17:30:55 2018 -0400
+
+    Drive WIP
+
+[33mcommit 50dcf9a6809624e7710ca194e3ae3ff6cda2e05a[m
+Merge: c978264 4309d1a
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sat Apr 14 16:47:33 2018 -0400
+
+    fix conflicts
+
+[33mcommit c978264f315e770bebf082f9471fc9c2c70fc4d5[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sat Apr 14 16:46:43 2018 -0400
+
+    hearbeat done; TODO response from server
+
+[33mcommit 4309d1a8f16ef81089d9f57830b783c79b8cbdb0[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 14:56:59 2018 -0400
+
+    Drive WIP
+
+[33mcommit 4c560628408134227706574f2c61365416f08f59[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 14 13:16:52 2018 -0400
+
+    WIP: Drive Functions
+
+[33mcommit fa0806c096fef5a5f1957393e39c6d7ec6f6080b[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri Apr 13 16:21:14 2018 -0400
+
+    Drive SHOW ALL
+
+[33mcommit d44b7ccd9cc54d69987264c5a7c2b3c6589443cd[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri Apr 13 09:45:53 2018 -0400
+
+    Backend complete
+
+[33mcommit 15cc47a03876be5b12031a21a8b65984f23d4ec9[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri Apr 13 02:05:19 2018 -0400
+
+    big table done almost
+
+[33mcommit 0ba3262ad69765c30850ab0ae1205760f6adfc45[m
+Merge: 67da7eb 252e201
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 12 15:38:07 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 67da7eb3bea4b72129c356f376721f0ea9cd8d37[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 12 15:38:03 2018 -0400
+
+    heartbeat
+
+[33mcommit 252e201f25b95ee8661428a661cfb156d096e639[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 12 15:36:36 2018 -0400
+
+    Master fix
+
+[33mcommit 891a71de8b11b39cc700081b34d838be0ce1e8e7[m
+Merge: 384599a a48c932
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 12 14:59:53 2018 -0400
+
+    changes i master push
+
+[33mcommit 384599a592ce641c6af94bbc0ae35ad713e3511a[m
+Merge: 2d4a7be 1c98efd
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 12 14:59:26 2018 -0400
+
+    bullshit
+
+[33mcommit a48c932afeed273b7f4514a7c86fad7a54eddbe8[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 12 14:59:08 2018 -0400
+
+    RM objects
+
+[33mcommit 2d4a7be36121e2d1e8e431a7a0eb1c679e89d9d9[m
+Merge: 504052f 06908c9
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 12 14:57:46 2018 -0400
+
+    fix conflicts
+
+[33mcommit 504052ffdf8dd08f07f7cfeb7a2fd9bc467f675d[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 12 14:55:41 2018 -0400
+
+    master cahnges
+
+[33mcommit 1c98efda8be6845562a9c5154479ba9f45d27498[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 12 14:53:42 2018 -0400
+
+    Fix quorum
+
+[33mcommit 190f3b8d57e1b8857b0f5502cdc5fc976853b39b[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Thu Apr 12 14:53:01 2018 -0400
+
+    Send length before actual message
+
+[33mcommit 06908c9622f61ab4e20abfa5b891263f27b42cbd[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 12 14:39:30 2018 -0400
+
+    Quorum Server reads the port number now
+
+[33mcommit 24e01578b985b72c5e9269549c7ca50408d642ae[m
+Merge: 7b966a7 7fa7171
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 12 12:50:42 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 7b966a7754eedfc80b4adb57bc594d40f462c543[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Thu Apr 12 12:50:39 2018 -0400
+
+    All
+
+[33mcommit 7fa7171c0619666cc7fc7ce495fdfd6bfea3fd61[m
+Merge: 8d44ad6 f62fb89
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Thu Apr 12 12:45:44 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 8d44ad6c7d25a2e4118fb2869d87f7f21e6f6b24[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Thu Apr 12 12:45:26 2018 -0400
+
+    Add HTML request parsing for METHOD, PATH, PARAMS
+
+[33mcommit f62fb89462cc4503cc2daca2fec10cfee3b30304[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 11 19:26:31 2018 -0400
+
+    Front end
+
+[33mcommit c23ca83c7b4e5289ee9eecfe39d6efe43a6cdeeb[m
+Merge: d9290b6 ada5c3c
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Wed Apr 11 16:44:11 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit d9290b6ae372796ef3b6356aee989d2e55c4949a[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Wed Apr 11 16:34:01 2018 -0400
+
+    Return group number based on load received from heartbeat server
+
+[33mcommit ada5c3ca5b86cad965f1e0a18990aa4d86264066[m
+Author: Shiva Suri <suris@seas.upenn.edu>
+Date:   Wed Apr 11 16:29:38 2018 -0400
+
+    grpc
+
+[33mcommit 29d33d7c3110506424f3660c5890c75bc14fbca5[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 11 16:21:06 2018 -0400
+
+    Mail
+
+[33mcommit 9a89346a1a05b431e3a85ab6d9a4e32692f06440[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 11 16:12:54 2018 -0400
+
+    All
+
+[33mcommit 9a5cc5850dedf56c4145622d7dd739345ad283c8[m
+Merge: 302aa73 2876e3f
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 11 14:15:35 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 302aa730f4fbdf35ed6ff2f068bf9e550e40d46a[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 11 14:15:26 2018 -0400
+
+    Push
+
+[33mcommit 2876e3f3129b5f6dd10815836d5f3d67b0964448[m
+Merge: 618d087 fc132ad
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Wed Apr 11 11:30:52 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 618d08781be7b86190f49978ef32f155ddcd6aac[m
+Author: Sahana Vijaya Prasad <vijayapr@seas.upenn.edu>
+Date:   Wed Apr 11 11:30:45 2018 -0400
+
+    HTML Server
+
+[33mcommit fc132ad9797e111f49f3a09a9a652fc66fb34519[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Wed Apr 11 09:54:51 2018 -0400
+
+    Cleanup
+
+[33mcommit 5613f35b0894e6f88b06b1cd18ad6e23f160cbef[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 10 00:59:12 2018 -0400
+
+    Remove binaries
+
+[33mcommit 801fa32f22f842ad9604d864aef2f8799268aa9b[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 10 00:58:01 2018 -0400
+
+    Spawn
+
+[33mcommit ea9c65fc1567e0db74772d4002cf02f0f7a31f82[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 10 00:43:23 2018 -0400
+
+    Thunderbird
+
+[33mcommit 230d8492c08ccb16fc2064245e2281587365781e[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Tue Apr 10 00:34:25 2018 -0400
+
+    Thunderbird
+
+[33mcommit ef47d8d9d8381bed592f7e314de6cde8c09e65d8[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sat Apr 7 16:21:46 2018 -0400
+
+    Quorum Complete
+
+[33mcommit 1409f0e338d4f6f373f53871c96fe7ce5b25f89d[m
+Merge: 5412e97 6defacd
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Fri Apr 6 14:31:57 2018 -0400
+
+    Quorum based replication
+
+[33mcommit 5412e97c52a3eb0c6fce15707707eee66c78620e[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 17:42:39 2018 -0400
+
+    Hash Master Done
+
+[33mcommit 6defacd9c39a223ea5e48b60fe8e75e2a288d651[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sun Apr 1 17:30:34 2018 -0400
+
+    Added implementation for storage functions; tested
+
+[33mcommit d89b23b2f79fc559274592e65f5341f441f0727b[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:48:25 2018 -0400
+
+    Fixed - base
+
+[33mcommit 2830a66c0c56f07aef090d519381d4bff514ab5b[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:39:13 2018 -0400
+
+    base
+
+[33mcommit fd1d4e49dc59ebb25c9b0a05aa38c8e56f4b61b8[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:26:12 2018 -0400
+
+    makefile
+
+[33mcommit a5fbd9f109200eac866bea16b5463d8b11309b07[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:25:40 2018 -0400
+
+    makefile
+
+[33mcommit 062385d6859243da1a074db7b4a29d5648472978[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:22:43 2018 -0400
+
+    Master
+
+[33mcommit 41114b566e64494ba8917eb8d47df2791db2fb22[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:20:19 2018 -0400
+
+    Sync
+
+[33mcommit f26f8b67726f81a2f8c328533bebc3721385a66a[m
+Merge: 3c24ee0 85ec107
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:19:45 2018 -0400
+
+    Merge branch 'master' of ssh://cis505.cis.upenn.edu/git/cis505/T11
+
+[33mcommit 3c24ee03704b125ece69406ccb7b2ac425feac67[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 15:18:40 2018 -0400
+
+    Base
+
+[33mcommit 85ec10771a029805a48c839d8799e3aac440fa9e[m
+Author: Anant Maheshwari <anantm95@seas.upenn.edu>
+Date:   Sun Apr 1 15:09:23 2018 -0400
+
+    Added map; PUT and GET
+
+[33mcommit 7120ba31f76da20153344dfac679203abfa4af93[m
+Author: Garvit Gupta <garvit@seas.upenn.edu>
+Date:   Sun Apr 1 14:53:56 2018 -0400
+
+    Server Base

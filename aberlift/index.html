@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="author" content="Garvit Gupta">
+	<meta property="og:title" content="AberLift - carpooling platform for Aberystwyth University"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://www.garvitgupta.com/aberlift/"/>
+	<meta property="og:image" content="https://garvitgupta.com/aberlift/aberlift.png"/>
+	<meta property="og:site_name" content="Garvit Gupta"/>
+	<meta property="og:description" content="AberLift is a powerful platform for lift sharing built exclusively for students of Aberystwyth University in Wales, United Kingdom."/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>Garvit Gupta / AberLift</title>
+
+	<!-- Favicons -->
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">		
+	<meta name="apple-mobile-web-app-title" content="Garvit Gupta">	
+</head>
+<body>
+	<div class="navigation">
+		<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.garvitgupta.com/aberlift/">
+			<div class="share-icon"></div>
+		</a>
+	</div>
+
+	<div class="display">
+		<div class="logo">
+			<img src="logo.svg" class="logo-image flip">
+			<div class="logo-text">AberLift</div>
+		</div>
+		<div class="clearfix left-design">
+			<div class="description">
+				AberLift seeks to solve the apparently invincible carpooling situation. There are a few fundamental problems with car-pooling<sup><a style="text-decoration: none" href="https://timesofindia.indiatimes.com/city/delhi/Carpooling-fails-to-catch-on-security-main-concern/articleshow/48461087.cms">[1]</a><a style="text-decoration: none" href="https://www.nextbigwhat.com/b2c-ride-sharing-carpooling-india-297/">[2]</a></sup> - and it aims to take on them - one at a time. AberLift is a powerful platform for lift sharing built exclusively for students of <a href="https://www.aber.ac.uk/en/" style="color:#000">Aberystwyth University</a> in Wales, United Kingdom, and that’s where it’s name comes from (not Uber).
+				<br><br>
+				By limiting the application to the domain of a single organisation, at least a few major complications with forming and participating in carpool, such as user trust, background checks and security are immediately diminished or eliminated. Plus, it is more likely for the users to find common destinations and boarding points as AberLift connects 13 college campuses and dormitories - unlike a platform which works universally.
+				<br><br>
+				My friend, <a href="https://uk.linkedin.com/in/marcin-kosela-a1879384">Marcin Kosela</a> worked on product design, marketing, finance (and legal!) terms and I designed and developed the app.
+			</div>
+		</div>
+	</div>
+
+	<div class="map-background clearfix">
+		<div class="hero-numbers">&nbsp&nbsp13
+			<div class="hero-text">campuses and dorms connected</div>
+		</div>
+		<img src="map-3.png" class="map-image">
+	</div>
+
+	<div class="screenshots clearfix">
+		<div style="background-image: url('screens/tv0.png');background-repeat: no-repeat;background-size:contain;color:rgba(255,255,255,0.85);font-weight:400;font-family: Open Sans;font-size: 22px;">
+			<div id="screenshot-parent" class="screenshot-parent">
+				<img style="opacity:0; width:100%;" src="screens/tv1.png">
+			</div>
+		</div>
+
+		<div class="copyright">
+			2016. Garvit Gupta. All rights reserved.
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+	  	$(window).load(function() {           
+		  	var i =0; 
+		  	var images = ['screens/tv1.png','screens/tv2.png','screens/tv3.png','screens/tv4.png','screens/tv5.png'];
+		  	var image = $('#screenshot-parent');
+			setInterval(function(){
+				image.css('background-image', 'url(' + images [i++] +')');
+				if(i == images.length)
+				{
+					i = 0;
+				}
+		  	}, 3000);            
+	 	});		
+	</script>
+	<script>
+		/* prefetch images */
+
+		Image2= new Image(1200,690);
+		Image2.src = "screens/tv2.png";
+
+		Image3= new Image(1200,690);
+		Image3.src = "screens/tv3.png";
+
+		Image4= new Image(1200,690);
+		Image4.src = "screens/tv4.png";
+
+		Image5= new Image(1200,690);
+		Image5.src = "screens/tv5.png";
+	</script>
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-76097892-2', 'auto');
+		ga('send', 'pageview');
+	</script>	
+</body>
+</html>

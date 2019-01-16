@@ -1,0 +1,52 @@
+/* RTL Css */
+
+.header {
+	height: 100px;
+	width: 100%;
+	background-color: #ffffff;
+	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
+	top: 0px;
+}
+
+.logo {
+	padding-top: 31.5px;
+	width: auto;
+	padding-right: 15px;
+	float: right;
+	height: 37px;
+}
+
+.logo-image {
+	height: 37px;
+}
+
+.switcher {
+	float: left;
+	padding-left: 15px;
+	height: 100px;
+}
+
+.lang {
+	float: right;
+	height: 100px;
+	line-height: 100px;
+}
+
+.en a {
+	border-left: 1px solid #333;
+}
+
+.lang a {
+	color: #000000;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 400;
+	transition: 0.5s ease;
+	padding-right: 10px;
+	padding-left: 10px;	
+}
+
+.lang a:hover	{
+	color: #08a2e1;
+}

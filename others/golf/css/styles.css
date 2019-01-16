@@ -1,0 +1,217 @@
+html, body {
+    padding:0;
+    margin:0;
+    outline:0;
+}
+
+.overlay {
+    height:100%;
+    width:100%;
+}
+
+.video-container {
+    position:relative;
+}
+
+.top-navigation {
+    height:100px;
+    background-color:#212121;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.logo {
+    background-image:url('../images/logo.png');
+    width:300px;
+    height:100px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    float:left;
+}
+
+.sign-in-form {
+    float:right;
+    height:100px;
+}
+
+.sign-in-element {
+    float:left;
+    height:30px;
+    margin-top:35px;
+    border:0;
+    outline:0;
+    margin-left:10px;
+    font-family: Montserrat;
+    padding-left:10px;
+    font-size: 13px;
+}
+
+.button {
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#424242;
+    color:white;
+    cursor:pointer;
+    line-height:30px;
+}
+
+.button:hover {
+    background-color:#616161;
+}
+
+.banner-container {
+    height:600px;
+    width:100%;
+    background-image:url("../images/background.jpg");
+    background-size:cover;
+    background-position: bottom;
+    position:relative;
+}
+
+.banner-text {
+	font-family: Open Sans;
+	font-weight:100;
+	text-transform:;
+	font-size:50px;
+	text-align:center;
+	background-color:rgba(0,0,0,0.3);
+	width:auto;
+	padding:125px;
+	padding-left:275px;
+	padding-right:275px;
+	padding-top:175px;
+	height:300px;
+	color:#ffffff;
+	position: relative;
+}
+
+.banner-button {
+	padding:15px;
+	color:#ffffff;
+	background-color:#1B5E20;
+	font-size:20px;
+	font-family:Montserrat;
+	text-transform:uppercase;
+	bottom:0px;
+	display:inline-block;
+	cursor: pointer;
+}
+
+.banner-button:hover {
+	background-color:#2E7D32;
+}
+
+.sign-up-button {
+display: block;
+float:left;
+margin: 5px;
+padding: 12px;
+font-size: 16px;
+height: auto;
+line-height: 100%;
+}
+
+.registration-cta {
+    width:1000px;
+    margin:auto;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.sign-up-form {
+    width:500px;
+    float:left; 
+}
+
+.sign-up-name {
+    float:left;
+    margin:0;
+    margin:5px;
+    width:240px;
+    padding:0;
+    padding-left:10px;
+    height:40px;
+    font-size: 17px;
+    border: solid 3px #1B5E20;
+}
+
+.sign-up-element {
+    margin:0;
+    margin:5px;
+    width:490px;
+    padding:0;
+    padding-left:10px;
+    height:40px;
+    font-size: 17px;
+    border: solid 3px #1B5E20;
+}
+
+.radio {
+    width:auto;
+    height: auto;
+    margin-top: 17px;
+}
+
+.text {
+    width:auto;
+    line-height: 40px;
+    border: none;
+    padding:0;
+    padding-right:30px;
+}
+
+.clearfix:after { 
+    content: " ";   
+    display: block; 
+    height: 0;
+    clear: both;
+}
+
+.people-images {
+    width:400px;
+    margin-left:100px;
+    float:right;
+    height:350px;
+}
+
+.lede-person {
+    background-color:rgba(0,0,0,0.1);
+    border: solid 3px #1B5E20;
+    height:154px;
+    width:179px;
+    float:left;
+    background-size: cover;
+    background-position: center;
+    opacity:0.9;
+}
+
+.lede-person:nth-of-type(1) {
+    margin-bottom:30px;
+    margin-right:30px;
+    background-image: url("../images/people/person-1.jpg?7")
+}
+.lede-person:nth-of-type(2) {
+    margin-bottom:30px;
+    background-image: url("../images/people/person-2.jpg?7")
+}
+.lede-person:nth-of-type(3) {
+    margin-right:30px;
+    background-image: url("../images/people/person-3.jpg?7")
+}
+.lede-person:nth-of-type(4) {
+    background-image: url("../images/people/person-4.jpg?7")
+}
+
+.footer {
+	width:auto;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:#212121;
+	color:#DDDDDD;
+	height:40px;
+	font-family: Open Sans;
+	font-size: 13px;
+	line-height:40px;
+	text-align:center;
+}

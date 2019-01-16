@@ -1,0 +1,46 @@
+/* RTL CSS */
+
+.screen {
+	background-color: #000000;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 101;
+	overflow: hidden;	
+	display: none;
+	opacity: 0;
+	transition: 0.2s ease;
+}
+
+.screen-close-button {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 0px;
+	left: 0px;
+	background-image: url(../img/close.svg);
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	z-index: 200;
+}
+
+.video-container {
+	height: 100%;
+	width: 100%;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000000;
+}
+
+.video-youtube {
+	height: 100% !important;
+	width: 100% !important;
+}

@@ -1,0 +1,188 @@
+@media screen and (max-width: 1280px) {
+    .navigation {
+        width: 100%;
+    }
+    .section-1 {
+        padding-left: 25px;
+        padding-right: 25px;
+        width: auto;
+        height: auto;
+    }
+    .fix-width {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-bottom: 75px;
+    }
+    .lede-area {
+        width: 100%;
+        float: none;
+        text-align: center;
+        height: auto;
+    }
+    .screenshot {
+        width: 100%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lede-text {
+        text-align: center;
+        float: none;
+        padding: 0;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+    .status-logo {
+        float: none;
+        margin: auto;
+    }
+    .status-tex {
+        padding-top: 25px;
+        height: auto;
+        text-align: center;
+        font-size: 40px;
+        line-height: initial;
+    }
+    .status-sub {
+        padding-top: 25px;
+    }
+    .status-get {
+        padding-top: 50px;
+    }
+    .top-text {
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 25px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .list-top-text:hover {
+        -webkit-animation-play-state: initial;
+        animation-play-state: initial;
+    }
+    .section-3 {
+        height: auto;
+    }
+    .feature-top-text {
+        width: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: auto;
+    }
+    .sub-feature-title {
+        width: auto;
+        margin: 0;
+        margin-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .feature-numbers {
+        padding-left: 25px;
+        padding-right: 25px;
+        height: auto;
+    }
+    .downloads-box {
+        width: 100%;
+        margin: auto;
+        height: 160px;
+        float: none;
+    }
+    .sales-box {
+        width: 100%;
+        margin: auto;
+        height: 160px;
+        float: none;
+    }
+    .number-downloads {
+        font-size: 3em;
+    }
+    .number-sales {
+        font-size: 3em;
+    }
+    .optional-title-ratings {
+        padding-left: 25px;
+        padding-right: 25px;
+        height: auto;
+    }
+    .love-and-ratings {
+        height: auto;
+        width: 100%;
+    }
+    .left-love {
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        float: none;
+        height: auto;
+        padding-bottom: 25px;
+        width: auto;
+    }
+    .right-love {
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        float: none;
+        width: auto;
+    }
+    .heart-icon {
+        margin-top: 75px;
+        margin-bottom: 25px;
+    }
+    .section-4 {
+        height: auto;
+    }
+    .r-numbers {
+        text-align: center;
+        height: auto;
+    }
+    .small-number-r {
+        display: none;
+    }
+    .avg-rating {
+        float: none;
+        height: auto;
+    }
+    .big-number-r {
+        height: auto;
+        float: none;
+    }
+    .rating-desc-stars {
+        float: none;
+        height: auto;
+        padding: 0;
+    }
+    .stars-shape {
+        display: none;
+    }
+    .stars-fill {
+        margin-left: 50%;
+        left: -94px;
+        position: relative;
+    }
+    .bar-container {
+        width: 322px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .testimonial-text {
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .testimonial-designation {
+        font-size: 14px;
+    }
+    .windows-central,
+    .ib-times {
+        padding-top: 50px;
+    }
+    .testimonial {
+        height: 275px;
+    }
+    .r-bars {
+        overflow: hidden;
+    }
+}

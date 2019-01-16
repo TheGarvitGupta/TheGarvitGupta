@@ -1,0 +1,222 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    height: 100%;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 100;
+}
+body {
+    background-image: url("aberlift-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+a {
+    color: #000;
+    text-decoration: underline;
+}
+.navigation {
+    background: rgb(255, 255, 255);
+    height: 75px;
+    top: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.back-icon {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 149, 247);
+    height: 40px;
+    line-height: 40px;
+    background-image: url('left-arrow.svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+}
+.share-icon {
+    float: right;
+    background-image: url('share.png');
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+}
+.display {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: rgba(0, 144, 247, 0.5);
+    text-align: center;
+}
+.map-background {
+    margin-top: 250px;
+    margin-bottom: 250px;
+    height: 624px;
+    width: 100%;
+    background-color: rgba(0, 144, 247, 0.5);
+}
+.map-image {
+    height: 624px;
+    float: right;
+    padding-right: 120px;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.hero-numbers {
+    font-weight: 100;
+    background-image: url("marker.png");
+    background-size: 52.5px;
+    background-position: 0px 53px;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: 120px;
+    float: left;
+    height: 504px;
+    width: 400px;
+    font-family: Open Sans;
+    font-size: 150px;
+    color: #fff;
+}
+.hero-text {
+    font-family: Open Sans;
+    font-size: 50px;
+    color: #fff;
+}
+.copyright {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    margin-left: 50%;
+    left: -150px;
+    font-size: 10px;
+    line-height: 12px;
+    height: 20px;
+    width: 300px;
+    color: #333;
+}
+.logo {
+    height: 90px;
+    display: inline-block;
+}
+.logo-image {
+    height: 90px;
+    float: left;
+    display: block;
+}
+.logo-text {
+    font-family: Open Sans;
+    line-height: 90px;
+    margin-left: 25px;
+    display: block;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    font-size: 44px;
+    font-weight: 400;
+    color: #2196F3;
+    color: #fff;
+}
+.description {
+    float: left;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    padding-right: 250px;
+    text-align: left;
+    color: #333;
+    font-family: "Open Sans";
+    font-weight: 400;
+    background-image: url("design-right.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    display: block;
+    width: auto;
+}
+.left-design {
+    padding-left: 72px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    width: auto;
+    background-image: url("left-design.jpg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+.link-cta {
+    line-height: 22px;
+    float: left;
+    padding-top: 25px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+}
+.link-cta:hover {
+    text-decoration: underline;
+}
+.chevron {
+    padding-left: 5px;
+    padding-top: 25px;
+    height: 24px;
+    float: left;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: Arial;
+    color: #fff;
+    text-decoration: none;
+}
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph;
+    /*IE*/
+    
+    -webkit-filter: fliph;
+    filter: fliph;
+    /*IE*/
+}
+.screenshots {
+    padding: 120px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 149, 247, 0.5);
+    position: relative;
+}
+.screenshot-parent {
+    background-image: url("screens/tv1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.copyright {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    margin-left: 50%;
+    left: -150px;
+    font-size: 10px;
+    line-height: 12px;
+    height: 20px;
+    width: 300px;
+    color: #000;
+}

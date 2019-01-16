@@ -1,0 +1,568 @@
+
+<!doctype html>
+<html amp lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Cognitive Product Support: Next Phase of Intelligent Support Services | HCL Technologies</title>
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+		
+		<!-- FACEBOOK SHARE -->
+		<meta property="og:url"           content="http://garvitgupta.com/hbs/"/>
+		<meta property="og:type"          content="website"/>
+		<meta property="og:title"         content="HCL Technologies - Harvard Case Study"/>
+		<meta property="og:description"   content="Our core value, Relationship Beyond the Contract is now a validated case study by Harvard Business School. Read why."/>
+		<meta property="og:image"         content="http://garvitgupta.com/hbs/hbs-fb.jpg" />
+		
+		<!-- TWITTER SHARE -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@hcltech" />
+		<meta name="twitter:creator" content="@hcltech" />
+		<meta property="og:url" content="http://garvitgupta.com/hbs/"/>
+		<meta property="og:title" content="HCL Technologies - Harvard Case Study" />
+		<meta property="og:description" content="Our core value, Relationship Beyond the Contract is now a validated case study by Harvard Business School. Read why." />
+		<meta property="og:image" content="http://garvitgupta.com/hbs/hbs-fb.jpg"/>			
+
+		<script type="application/ld+json">
+		  {
+			"@context": "http://schema.org",
+			"@type": "NewsArticle",
+			"headline": "Open-source framework for publishing content",
+			"datePublished": "2015-10-07T12:02:41Z",
+			"image": [
+			  "logo.jpg"
+			]
+		  }
+		</script>
+		<style amp-boilerplate>
+			body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+		</style>
+		<noscript>
+			<style amp-boilerplate>
+				body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+			</style>
+		</noscript>
+		<script async src="https://cdn.ampproject.org/v0.js"></script>	
+		<style amp-custom>
+			
+			.twitter-icon {
+				height:30px;
+				width:30px;
+				float:left;
+				background-size:18px;
+				background-repeat:no-repeat;
+				background-position:center;
+				background-image:url('twitter.svg');
+				background-color:#00aced;
+			}
+			
+			.linkedin-icon {
+				height:30px;
+				width:30px;
+				float:left;
+				background-size:18px;
+				background-repeat:no-repeat;
+				background-position:center;
+				background-image:url('linkedin.svg');
+				background-color:#0077b5;
+			}
+			
+			body {
+				margin:0;
+				padding:0px;
+			}
+			
+			.navigation {
+				height:50px;
+				width:auto;
+				background-color:#333;
+				position:fixed;
+				top:0px;
+				right:0px;
+				left:0px;
+				z-index:1000;
+			}
+			
+			.hcl-logo {
+				margin-left:15px;
+				height:50px;
+				width:100px;
+				float:left;
+			}
+			
+			.hamburger {
+				margin-right:15px;
+				height:50px;
+				background-color:#000;
+				width:50px;
+				float:right;
+				cursor:pointer;
+			}
+			
+			.up-arrow {
+				float:right;
+				position:absolute;
+				right:70px;
+				height:50px;
+				width:50px;
+			}
+			
+			.up-arrow:hover {
+				background-color:rgba(255,255,255,0.1);
+			}
+				
+			.header-parent {
+				padding-left:15px;
+				padding-right:15px;
+				padding-top:75px;
+			}
+			
+			h1 {
+				font-family:Calibri,Arial,sans-serif;
+				font-size:32px;
+			}
+			
+			.by-line {
+				padding-top:15px;
+				padding-left:15px;
+				padding-right:15px;
+				height:55px;
+			}
+			
+			.person-image {
+				width:55px;
+				border-radius:50%;
+				float:left;
+			}
+			
+			.person-about {
+				/* height: 35px; */
+				padding-top: 3px;
+				padding-bottom: 5px;
+				float: left;
+				padding-left: 15px;
+				width: calc(100% - 70px);
+			}
+			
+			.name {
+				font-size: 18px;
+				font-family: Calibri,Arial,sans-serif;
+				line-height: 20px;
+				height: 20px;
+			}
+			
+			.designation {
+				font-size: 12px;
+				line-height: 15px;
+				padding-top: 3px;
+				/* height: 15px; */
+				text-transform: uppercase;
+				color: rgba(0,0,0,0.7);
+				font-family: Calibri,Arial,sans-serif;
+			}
+			
+			.subtitles {
+				font-family:Calibri,Arial,sans-serif;
+				color:rgba(0,0,0,0.7);
+				font-size:12px;
+				text-transform:uppercase;
+				font-family:Calibri,Arial,sans-serif;
+				letter-spacing:1px;
+				line-height:15px;
+				padding:0;
+				margin:0;
+			}
+			
+			.date-time {
+				float:left;
+			}
+			
+			.total-views {
+				float:right;
+			}
+			
+			.share-buttons {
+				margin-top:20px;
+				margin-left:15px;
+				margin-right:15px;
+				height:30px;
+				position:relative;
+				padding-bottom:15px;
+				border-bottom:solid 1px rgba(0,0,0,0.3);
+			}
+			
+			.linkedin-button {
+				height:30px;
+				width:48%;
+				background-color:#0077B5;
+				line-height:30px;
+				text-align:center;
+				color:#fff;
+				font-size:18px;
+				font-family:Calibri,Arial,sans-serif;
+				letter-spacing:0.1px;
+				position:absolute;
+				left:0px;
+			}
+			
+			.twitter-button {
+				height:30px;
+				width:48%;
+				background-color:#00aced;
+				line-height:30px;
+				text-align:center;
+				color:#fff;
+				font-size:18px;
+				font-family:Calibri,Arial,sans-serif;
+				letter-spacing:0.1px;
+				position:absolute;
+				right:0px;
+			}
+			
+			.content {
+				font-family:Calibri,Arial,sans-serif;
+				margin-left:15px;
+				margin-right:15px;
+				font-size:17px;
+				padding-bottom:25px;
+				border-bottom:solid 1px rgba(0,0,0,0.3);
+			}
+			
+			.tweet-text {
+				font-size:16px;
+				padding-left:12px;
+				border-left:solid 4px #0066b3;
+				margin-top:12px;
+				display:block;
+				position:relative;
+				padding-bottom:5px;
+				color:#0066b3;
+			}
+			
+			.tweet-text:after {
+				content:"Click to Tweet";
+				position:relative;
+				display:block;
+				margin-top:10px;
+				padding-left:20px;
+				text-transform:uppercase;
+				font-size:12px;
+				color:#00aced;
+				letter-spacing:1px;
+				font-weight:700;
+				background-image:url("images/twitter.svg");
+				background-position:left;
+				background-size:15px;
+				background-repeat:no-repeat;				
+			}
+			
+			h2 {
+				color: #0066b3;
+				font-size:20px;
+			}
+			
+			a {
+				color:#000;
+				text-decoration:none;
+			}
+			
+			.recommended {
+				padding-left:15px;
+				padding-right:15px;
+				padding-top:20px;
+				padding-bottom:20px;
+				font-weight:700;
+				letter-spacing:1px;
+			}
+			
+			.recommended-text {
+				font-family:Calibri,Arial,sans-serif;
+				font-size:14px;
+				text-transform:uppercase;
+			}
+			
+			.recommended-blog {
+				margin-top:25px;
+			}
+			
+			.recommended-title {
+				float:left;
+				width: calc(100% - 77.4px - 60px);
+				
+				padding-left:10px;
+			}
+			
+			.recommended-h1 {
+				font-family: Calibri,Arial,sans-serif;
+				font-size: 14px;
+				margin-top: 0px;
+				font-weight: 700;
+				letter-spacing: normal;
+			}
+			
+			.recommended-author {
+				font-family:Calibri,Arial,sans-serif;
+				font-size:12px;
+				padding-top:10px;
+				text-transform:uppercase;
+				color:#0066b3;
+			}
+			
+			.clearfix:after {
+				visibility: hidden;
+				display: block;
+				font-size: 0;
+				content: " ";
+				clear: both;
+				height: 0;
+			}
+			
+			.menu {
+				padding-top:65px;
+				background-color:#000;
+				padding-left:15px;
+				padding-right:15px;
+				min-height:100%;
+			}
+			
+			.menu-title {
+				font-family:Calibri,Arial,sans-serif;
+				font-size:16px;
+				text-transform:uppercase;
+				color:#fff;
+			}
+			
+			.categories {
+				width:100%;
+
+			}
+			
+			.cat-1 {
+				float: left;
+				width: calc(50% - 10px);
+				margin-right: 10px;
+			}
+			
+			.cat-2 {
+				float: left;
+				width: calc(50% - 10px);
+				margin-left: 10px;
+			}
+			
+			.cat-h1 {
+				color:#fff;
+				font-size:12px;
+				font-family:Calibri,Arial,sans-serif;
+				text-transform:uppercase;
+				font-weight:700;
+				letter-spacing:1x;
+				padding-top:20px;
+				padding-bottom:5px;
+				color:#0066B3;
+			}
+			
+			.cat-body {
+				color: #fff;
+				padding-top: 5px;
+				font-size: 10px;
+				font-family: Calibri,Arial,sans-serif;
+				padding-bottom: 5px;
+				border-bottom: solid 1px rgba(255,255,255,0.1);
+				position: relative;
+			}
+			
+			.cat-body:after {
+				content: '';
+				background-image: url(images/right.svg);
+				background-size: 15px;
+				background-position: right;
+				position: absolute;
+				/* right: 73px; */
+				height: 13px;
+				width: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="navigation">
+			<a href="http://www.hcltech.com">
+				<div class="hcl-logo">
+					<amp-img style="padding-top:35px;" src="images/hcl-logo.svg" alt="HCL Logo" height="14.8" width="96.8" layout="responsive"></amp-img>
+				</div>
+			</a>
+			<a href="#top">
+				<div class="up-arrow">
+					<amp-img style="margin-left:11px;margin-top:11px" src="images/up-arrow.svg" alt="Up Arrow" height="28" width="28"></amp-img>
+				</div>
+			</a>
+			<a href="#menu">
+				<div class="hamburger">
+					<amp-img style="margin-left:11px;margin-top:11px" src="images/hamburger.svg" alt="Menu" height="28" width="28"></amp-img>
+				</div>
+			</a>
+		</div>
+		<div class="header-parent">
+			<p class="date-time subtitles">August 22, 2016</p>
+			<p class="total-views subtitles">348 Views</p>
+			<h1>Cognitive Product Support: Next Phase of Intelligent Support Services</h1>
+			<amp-img src="images/lede.jpg" alt="Cognitive Product Support" height="516" width="839" layout="responsive"></amp-img>
+		</div>
+		<div class="by-line">
+			<amp-img class="person-image" src="images/person.jpg" alt="Apoorv Iyer" height="55" width="55"></amp-img>
+			<div class="person-about">
+				<div class="name">Apoorv Iyer</div>
+				<div class="designation">Vice President, Engineering R&D Services</div>
+			</div>
+		</div>
+		<div class="share-buttons">
+			<a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.hcltech.com/blogs/cognitive-product-supportnext-phase-intelligent-support-services&title=%20Cognitive%20Product%20Support%3A%20Next%20Phase%20of%20Intelligent%20Support%20Services&summary=Today,%20customized%20user%20experiences%20and%20burgeoning%20demands%20are%20two%20major%20expectations%20from%20customers%20in%20an%20As-a-Service%20economy.%20As%20a%20consequence,%20the%20same%20anticipations%20have%20been%20building%20up%20for%20the%20technology%20sector.&source=www.hcltech.com">
+				<div class="linkedin-button">Share</div>
+			</a>
+			<a target="_blank" href="https://twitter.com/intent/tweet?via=hcltech&text=Cognitive%20Product%20Support%3A%20Next%20Phase%20of%20Intelligent%20Support%20Services">
+				<div class="twitter-button">Tweet</div>
+			</a>
+		</div>
+		<div class="content">
+			<p>Today, customized user experiences and burgeoning demands are two major expectations from customers in an As-a-Service economy. As a consequence, the same anticipations have been building up for the technology sector.</p>
+			
+			<p>In this context, Cognitive Product Support could unleash a number of far-reaching impacts.</p>
+		
+			<a class="tweet-text" target="_blank" href="https://twitter.com/intent/tweet?via=hcltech&text=Major%20high-tech%20firms%20are%20now%20turning%20their%20attention%20to%20the%20application%20of%20artificial%20intelligence%20and%20cognitive%20technologies%20to%20engineer%20an%20innovative%20enterprise%20architecture%20-&">Major high-tech firms are now turning their attention to the application of artificial intelligence and cognitive technologies to engineer an innovative enterprise architecture.</a>
+		
+			<p>This would essentially help enterprises transition from unnecessary complexities, manual interventions and poorly managed processes associated with legacy technologies to nimbler, simpler, intelligent product support.</p>
+
+			<p>In order to assimilate this ‘disruptive technology’, organizations must look beyond outdated technologies and operations systems. The focus should converge on artificial intelligence and change management to achieve optimum business capabilities, encourage sustained collaboration, and successfully convert to the As-a-Service Economy.</p>
+
+			<p>HfS’s Eight Ideals, created in collaboration with HCL, could have a massive impact in facilitating this transformational pathway.</p>
+			
+			<h2>Achieving Intelligent Product Support through HfS’s Eight Ideals</h2>
+			
+			<p>The Eight Ideals (Ideals of Intelligent Automation, Accessible and Actionable Data, Holistic Security and Plug and Play Digital Business Services) helps shape the As-a-Service solution which invests in talent, processes and technology to drive the desired business outcomes. These Ideals help provide the ideal platform required to engage and manage resources required for intelligent product support. Far from being a restrictive model setup, the ideology emphasizes flexibility and staying power by leveraging analytics and automations, thereby improving responsiveness and reducing costs.</p>
+
+			<p>To further breakdown how the application of analytics and automation will help enhance the product support experience, one has to imagine the vast capabilities of a computer system. Machine learning enables such a system to identify activities in different environments when exposed to a large chunk of data and help improve performance.</p>
+
+			<p>Natural language processing (NLP) provides the means to extract meaning from the text provided as well as generate readable and grammatically correct text. In addition, speech recognition allows automatic transcription of human speech.</p>
+
+			<p>Complex trade-offs and decisions can be taken easily despite limited resources due to its intelligent optimization abilities.</p>
+
+			<p>Cognitive Product Support will also help in easy planning and scheduling, enabling the business to organize the required actions necessary to meet relevant goals. With the help of rule-based systems, the ability to interpret information correctly from databases becomes easier due to process automation.</p>
+
+			<p>In short, Cognitive Product Support acts as a catalyst to decrease cost and time in a collaborative manner and improve the overall responsiveness to customer requests.</p>
+
+			<h2>Enhancing customer relationships with effective cost management</h2>
+
+			<p>Embracing HfS’s Eight Ideals signifies a larger paradigm shift - will mean imbibing the wider disciplines of robotics and cognitive technologies. This would significantly improve company-customer partnerships by working together, interacting, and assisting as and when required.</p>
+
+			<p>This essentially translates to performing multiple tasks in an unpredictable environment, satisfying both the business and the customer.</p>
+
+			<p>To offer a more definite idea of large-scale productivity improvements with the adoption of Cognitive Product Support, <a class="tweet-text" target="_blank" href="https://twitter.com/intent/tweet?via=hcltech&text=HfS%20estimates%20tech%20companies%20will%20be%20able%20to%20save%20about%2040%25%20of%20the%20total%20product%20support%20cost%20-&">HfS estimates tech companies will be able to save about 40% of the total product support cost.</a></p>
+
+			<p>Further, incorporating this system will markedly increase customer satisfaction and drastically reduce reputational risks, futureproofing high-tech and software companies’ value-driven product operations.</p>
+
+			<p>To know about the far-reaching potential of this revolutionary phase of product support, read our whitepaper.</p>
+			
+			<a target="_blank" href="http://www.hcltech.com/white-papers/engineering-and-rd-services/rethinking-support-service-economy-cognitive-product">
+				<amp-img src="images/banner.jpg" alt="Cognitive Product Support - Know More" height="140" width="790" layout="responsive"></amp-img>
+			</a>
+		</div>
+		<div class="recommended">
+			<div class="recommended-text">Recommended for you</div>
+			<a href="http://www.hcltech.com/blogs/cucumber-automating-scenarios-and-behaviors">
+				<div class="recommended-blog clearfix">
+					<amp-img style="float:left;" src="images/recommended-1.jpg" alt="Cognitive Product Support - Know More" height="77.4" width="125.85"></amp-img>
+					<div class="recommended-title">
+						<div class="recommended-h1">Cucumber - Automating scenarios and behaviors</div>
+						<div class="recommended-author">Rabia Sharma</div>
+					</div>
+				</div>
+			</a>
+			<a href="http://www.hcltech.com/blogs/card-sorting-strenthening-information-architecture">
+				<div class="recommended-blog clearfix">
+					<amp-img style="float:left;" src="images/recommended-2.jpg" alt="Cognitive Product Support - Know More" height="77.4" width="125.85"></amp-img>
+					<div class="recommended-title">
+						<div class="recommended-h1">Card Sorting strenthening information architecture</div>
+						<div class="recommended-author">Jitesh Jumani</div>
+					</div>
+				</div>
+			</a>
+			<a href="http://www.hcltech.com/blogs/few-myths-microservices">
+				<div class="recommended-blog clearfix">
+					<amp-img style="float:left;" src="images/recommended-3.jpg" alt="Cognitive Product Support - Know More" height="77.4" width="125.85"></amp-img>
+					<div class="recommended-title">
+						<div class="recommended-h1">Few Myths on MicroServices</div>
+						<div class="recommended-author">Sathish Gurumoorthy</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<a name="menu"></a>
+		<div class="menu">
+			<div class="menu-title">All Blogs</div>
+			<div class="categories clearfix">
+				<div class="cat-1">
+					<div class="cat-h1">Leader Speak</div>
+						<div class="cat-body">Anant Gupta</div>
+						<div class="cat-body">GH Rao</div>
+						<div class="cat-body">Jaco Van Eeden</div>
+						<div class="cat-body">Kalyan Kumar B</div>
+						<div class="cat-body">Karan Puri</div>
+						<div class="cat-body">Matt Preschern</div>
+						<div class="cat-body">Prithvi Shergill</div>
+						<div class="cat-body">Rahul Singh</div>
+						<div class="cat-body">Rajiv Sodhi</div>
+						<div class="cat-body">Sukamal Banerjee</div>
+					
+					<div class="cat-h1">Technology</div>
+						<div class="cat-body">Application development</div>
+						<div class="cat-body">Application Support and Maintenance</div>
+						<div class="cat-body">Big Data and Analytics</div>
+						<div class="cat-body">Business Services</div>
+						<div class="cat-body">Cloud</div>
+						<div class="cat-body">Collaboration</div>
+						<div class="cat-body">Content Management</div>
+						<div class="cat-body">Customer Experience</div>
+						<div class="cat-body">Engineering R&D</div>
+						<div class="cat-body">Governance, Risk and Compliance</div>
+						<div class="cat-body">IT infrastructure</div>
+						<div class="cat-body">Legacy Modernization</div>
+						<div class="cat-body">Mobility</div>
+						<div class="cat-body">Network Management</div>
+						<div class="cat-body">Platforms & Middleware</div>
+						<div class="cat-body">Product Engineering</div>
+						<div class="cat-body">Quality Assurance</div>
+						<div class="cat-body">Service Management</div>
+						<div class="cat-body">Social media</div>
+						<div class="cat-body">Systems Integration</div>
+						<div class="cat-body">User Experience</div>
+						<div class="cat-body">Web Experience</div>
+						<div class="cat-body">Digitalization</div>
+						<div class="cat-body">Internet of Things</div>
+						<div class="cat-body">Next-Gen ITO</div>
+				</div>
+				<div class="cat-2">
+					<div class="cat-h1">Industries</div>
+						<div class="cat-body">Aerospace and Defense</div>
+						<div class="cat-body">Energy and Utilities</div>
+						<div class="cat-body">Financial Services</div>
+						<div class="cat-body">Gaming & Sports</div>
+						<div class="cat-body">Life Sciences and Healthcare</div>
+						<div class="cat-body">Manufacturing</div>
+						<div class="cat-body">Media, Broadcasting and Entertainment</div>
+						<div class="cat-body">Publishing & Education</div>
+						<div class="cat-body">Retail and eCommerce</div>
+						<div class="cat-body">Telecom</div>
+						<div class="cat-body">Travel, Transportation & Logistics</div>
+					
+					<div class="cat-h1">I have an Idea</div>
+						<div class="cat-body">Customer Success</div>
+						<div class="cat-body">Employee Strategy</div>
+						<div class="cat-body">Good Practices</div>
+						<div class="cat-body">Ideas</div>
+						<div class="cat-body">IT Strategy</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>

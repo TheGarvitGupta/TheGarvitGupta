@@ -1,0 +1,2 @@
+[1;35mOm Shree Ganeshaya Namaha![0m
+Port: 30000

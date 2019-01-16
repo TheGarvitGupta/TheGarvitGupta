@@ -1,0 +1,8 @@
+[14-Jan-2019 17:08:16 Europe/London] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/garvitgu/public_html/garvitgupta.com/index.php on line 1055
+[14-Jan-2019 17:08:19 Europe/London] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/garvitgu/public_html/garvitgupta.com/index.php on line 1055
+[14-Jan-2019 17:08:22 Europe/London] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/garvitgu/public_html/garvitgupta.com/index.php on line 1055
+[14-Jan-2019 17:08:22 Europe/London] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/garvitgu/public_html/garvitgupta.com/index.php on line 1055
+[14-Jan-2019 17:08:24 Europe/London] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/garvitgu/public_html/garvitgupta.com/index.php on line 1055
+[14-Jan-2019 17:08:40 Europe/London] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/garvitgu/public_html/garvitgupta.com/index.php on line 1055
+[14-Jan-2019 17:33:42 Europe/London] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/garvitgu/public_html/garvitgupta.com/run.php on line 10
+[14-Jan-2019 17:33:47 Europe/London] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/garvitgu/public_html/garvitgupta.com/run.php on line 10

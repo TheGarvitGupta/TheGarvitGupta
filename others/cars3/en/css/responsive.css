@@ -1,0 +1,853 @@
+@media screen and (max-width: 1280px) {
+	.top-image {
+		display: none;
+	}
+
+	.top-image-1280 {
+		display: block;
+	}
+
+	.offer-text {
+		font-size: 24px;
+	}
+
+	.step-text {
+    	width: calc(100% - 110px - 82px);
+	}
+
+	.tilt-top {
+		padding-top:64px;
+	}
+
+	.quiz-question {
+		width: 90%;
+		font-size: 32px;
+	}
+
+	.quiz-question sup {
+		font-size: 24px;
+	}
+
+	.quiz-options {
+		width: auto;
+	}
+
+	.answer {
+		width: 33.33%;
+    	width: calc(100%/3);
+	}
+
+	.enter-form {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+
+	.offer {
+		width: 30%;
+		margin-right: 5%;
+	}
+
+	.o3 {
+		margin-right: 0;
+	}
+
+	.step-text {
+		font-size: 16px;
+	}
+
+	.cars-3-logo {
+		width: 320px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.top-image {
+		display: none;
+	}
+
+	.top-image-1280 {
+		display: none;
+	}	
+	
+	.top-image-1024 {
+		display: block;
+	}
+
+	.grey-section {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.icon-number {
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+		font-size: 50px;
+	}
+
+	.step {
+		margin-bottom: 40px;
+	}
+
+	.step-text {
+		margin-left: 12px;
+		padding-top: 20px;
+	}
+
+	.three-steps:before {
+	    height: 90%;
+    	left: 46px;
+	}
+
+	.quiz-options {
+		height: auto;
+		width: auto;
+
+	}
+
+	.answer {
+		float: none;
+		margin: auto;
+		margin-bottom: 32px;
+	}
+
+	.answer-number {
+		display: none;
+	}
+
+	.enter-s-1, .enter-s-2 {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.enter-s-2 {
+		margin-top: 0px;
+		margin-left: 200px;
+		width: calc(100% - 200px);
+	}
+
+	.file-upload-box {
+		width: 100%;
+		height: 40px;
+		border: 0;
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		position: relative;
+		padding-left: 40px;
+		margin-top: -40px;
+	}
+
+	.enter-form:after {
+		content: 'Tap above and upload a cute image your child expressing love for Lightning McQueen.';
+		position: absolute;
+		padding-top: 12px;
+		font-size: 12px;
+		padding-left: 200px;
+		color: rgba(0,0,0,0.4);
+		margin-right: 5%;
+		font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	.hint-text {
+		display: none;
+	}
+
+	.live-picture {
+		height: 40px;
+		width: 40px;
+		position: absolute;
+	    background-image: url(../img/boy.svg);
+	    background-position: center;
+	    background-size: cover;
+	    background-color: rgba(0,0,0,0.1);
+	    background-repeat: no-repeat;
+	}
+
+	.file-upload-box:before {
+		content: "Select Image";
+		position: absolute;
+		height: 40px;
+		width: calc(100% - 40px);
+		left: 40px;
+		top: 0px;
+		line-height: 40px;
+		text-align: center;
+		font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: rgba(0,0,0,0.3);
+	}
+
+	.file-default {
+		height: 90px;
+	}
+
+	.picture-label {
+		display: block;
+	}
+
+	.cars-3-logo {
+		width: 240px;
+	}
+
+	.start-button {
+		margin-top: 16px;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.offers-container {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+
+	.step-text {
+		width: calc(100% - 110px - 40px);
+	}
+
+	.step-text {
+		margin-left: 12px;
+		padding-top: 18px;
+	}	
+
+	.cars-footer {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.top-image {
+		display: none;
+	}
+
+	.top-image-1280 {
+		display: none;
+	}
+
+	.top-image-1024 {
+		display: none;
+	}	
+
+	.top-image-768 {
+		display: block;
+	}
+
+	.down-arrow {
+		background-size: 40px;
+		background-position: center 45px;
+		height: 120px;
+		width: 120px;
+		margin-top: -60px;
+	}
+
+	.play-button {
+		background-size: 60px;
+		background-position: 34px;
+	}
+
+	.offer-text {
+		font-size: 20px;
+		margin-top: 64px;
+		line-height: 32px;
+	}
+
+	.offer-text-sup {
+		font-size: 16px;
+	}
+
+	.offer-description {
+		font-size: 20px;
+	}
+
+	.section-1 {
+		width: 100%;
+		float: none;
+	}
+
+	.section-2 {
+		width: 100%;
+		float: none;
+	}
+
+	.products-image {
+		margin-top: 0;
+	}
+
+	.icon-number {
+		height: 140px;
+		width: 140px;
+		line-height: 140px;
+		font-size: 64px;
+	}
+
+	.step {
+		margin-bottom: 64px;
+	}
+
+	.step-text {
+		margin-left: 20px;
+		padding-top: 40px;
+		width: calc(100% - 140px - 20px);
+		font-size: 24px;
+	}
+
+	.three-steps:before {
+	    height: 90%;
+    	left: 64px;
+	}
+
+	.start-button {
+		margin-top: 0px;
+		margin-bottom: 120px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
+	}
+
+	.answer {
+		width: auto;
+	}
+
+	/* header */
+	.header {
+		height: 60px;
+	}
+
+	.logo {
+		height: 36px;
+		padding-top: 12px;
+	}
+
+	.logo-image {
+		height: 36px;
+	}
+
+	.lang {
+		height: 60px;
+		line-height: 60px;
+	}
+
+	.switcher {
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.offer {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 160px;
+		margin-bottom: 5%;
+	}
+
+	.o3 {
+		margin-bottom: 0;
+	}
+
+	.offer-icon {
+		float: left;
+		width: 160px;
+	}
+
+	.offer-image {
+		height: 100px;
+		margin: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.o3 .offer-icon .offer-image {
+		height: 104px;
+		margin: 28px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.offer-division {
+		float: left;
+		height: 64px;
+		width: 3px;
+
+		top: 50%;
+		margin: auto;
+		margin-top:-32px;
+		position: relative;
+	}
+
+	.offer-head {
+		text-align: left;
+		padding-left: 190px;
+		padding-top: 16px;
+	}
+
+	.offer-description {
+		text-align: left;
+		padding-left: 190px;
+		font-size: 18px;
+	}
+
+	.step-text {
+		padding-top: 30px;
+		width: calc(100% - 140px - 40px);
+		font-size: 20px;
+	}
+
+	.quiz-question {
+		font-size: 28px;
+	}
+
+	.footer-section-1, .footer-section-2 {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-section-2 {
+		margin-top: 60px;
+	}
+
+	.footer-button {
+		float: none;
+		display: block;
+	}
+
+	.disney-copyright {
+		width: 100%;
+		text-align: center;
+	}
+
+	.prizes, .tnc {
+		width: calc(100% - 64px);
+		height: calc(100% - 64px);
+		
+		border-radius: 0;
+		margin: 0;
+		
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+
+		-webkit-transform: none;
+
+		        transform: none;
+	}
+
+	/* MODAL */
+
+	.modal-window {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		left: 0;
+		height: auto;
+	}
+
+	.modal-video {
+		width: 100%;
+		height: 0;
+		padding-bottom: 56.25%;
+	}
+
+	.modal-icon {
+		display: none;
+	}
+
+	.modal-separator {
+		display: none;
+	}
+
+	.modal-info {
+		height: auto;
+	}
+
+	.modal-text {
+		width: calc(100% - 40px);
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.down-arrow {
+		background-size: 28px;
+		background-position: center 32px;
+		height: 80px;
+		width: 80px;
+		margin-top: -40px;		
+	}
+
+	.play-button {
+		background-size: 40px;
+		background-position: 24px;
+	}	
+
+	.bubbles {
+		height: 32px;
+		width: 32px;
+		margin-top: -4px;
+	}
+
+	.bubbles:after {
+		height: 16px;
+		width: 16px;
+		margin-top: 30px;
+		margin-left: 42px;
+	}
+
+	.lmq-text-container {
+		margin-top: 40px; 
+		width:90%;
+	}
+
+	.offer-text {
+		margin-top:50px;
+		font-size: 18px;
+		margin-top: 64px;
+		line-height: 28px;
+	}
+
+	.offer-text-sup {
+		font-size: 14px;
+	}
+
+	/* Offers */
+
+	.offers-container {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}	
+
+	.offer {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 100px;
+		margin-bottom: 5%;
+	}
+
+	.o3 {
+		margin-bottom: 0;
+	}
+
+	.offer-icon {
+		float: left;
+		width: 100px;
+	}
+
+	.offer-image {
+		height: 64px;
+		margin: 18px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.o3 .offer-icon .offer-image {
+		height: 70px;
+		margin: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.offer-division {
+		float: left;
+		height: 100%;
+		margin:0;
+		top: 0px;
+		width: 1px;
+		background-color: #DADADA;
+		position: relative;
+	}
+
+	.offer-head {
+		text-align: left;
+		padding-left: 120px;
+		padding-top: 16px;
+		font-size: 22px;
+	}
+
+	.offer-description {
+		text-align: left;
+		padding-left: 120px;
+		font-size: 14px;
+		padding-top: 8px;
+	}	
+
+	.enter-now {
+		font-size: 72px;
+	}
+
+	.grey-section {
+		margin-top: 150px;
+	}
+
+	.three-steps {
+		margin-top: 40px;
+	}
+
+	.icon-number {
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+		font-size: 48px;
+	}
+
+	.step {
+		margin-bottom: 40px;
+	}
+
+	.step-text {
+		margin-left: 12px;
+		padding-top: 18px;
+		width: calc(100% - 100px - 12px);
+		font-size: 16px;
+	}
+
+	.three-steps:before {
+	    height: 90%;
+    	left: 46px;
+	}
+
+	.quiz-options {
+		margin-top: 48px;
+	}
+
+	.answer-text {
+		font-size: 18px;
+		height: 48px;
+		line-height: 48px;
+	}
+
+	.answer {
+		height: 48px;
+		margin-bottom: 16px;
+	}
+
+	.quiz-question {
+		font-size: 20px;
+		margin-top: 40px;
+	}
+
+	.quiz-question sup {
+		font-size: 16px;
+	}
+
+	.quiz-next {
+		height: 100px;
+		width: 100px;
+		background-size: 32px;
+		margin-top: 64px;
+	    background-position: center 40px;
+	}
+
+	.tilt-top {
+		padding-bottom: 120px;
+	}
+
+	.quiz-number {
+		font-size: 22px;
+	}
+
+	.enter-form {
+		margin-top: 0px;
+		padding-bottom: 80px;
+	}
+
+	.description-text {
+		font-size: 22px;
+	}
+
+	.submit-form {
+		margin-top: 40px;
+	}
+
+	.submit-button-container {
+		margin-top: 0;
+	}
+
+	.form-label, .form-text {
+		width: 100%;
+		float: none;
+		font-size: 16px;
+	}
+
+	.enter-form:after {
+		padding-left: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.form-field	{
+		height: auto;
+		margin-top: 8px;
+	}
+
+	.file-upload-box {
+		margin-top: 0;
+	}
+
+	.enter-s-2 {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.submit-button-container {
+		padding-bottom: 120px;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+
+	.icon-number {
+		height: 80px;
+		width: 80px;
+		line-height: 80px;
+		font-size: 40px;
+	}
+
+	.step {
+		margin-bottom: 32px;
+	}
+
+	.step-text {
+		margin-left: 12px;
+		padding-top: 10px;
+		width: calc(100% - 80px - 12px);
+		font-size: 16px;
+	}
+
+	.three-steps:before {
+	    height: 80%;
+    	left: 36px;
+	}
+
+	.quiz-number {
+		font-size: 18px;
+	}
+
+	.quiz-question {
+		font-size: 18px;
+	}
+
+	.quiz-options {
+		margin-top: 40px;
+	}
+
+	.answer-text {
+		font-size: 16px;
+		height: 40px;
+		line-height: 40px;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+
+	.answer {
+		padding-left: 5%;
+		padding-right: 5%;
+		width: auto;
+		height: 40px;
+	}
+
+	.answer-container {
+		width: 100%;
+	}
+
+	.quiz-next {
+		margin-top: 40px;
+	}
+
+	.enter-form {
+		padding-bottom: 64px;
+	}
+
+	.enter-now {
+		font-size: 60px;
+	}
+
+	.description-text {
+		font-size: 18px
+	}
+
+	.prizes, .tnc {
+		padding: 16px;
+		height: calc(100% - 32px);
+		width: calc(100% - 32px);
+	}
+
+	.popups-header {
+		font-size: 18px;
+	}
+
+	.popups-content {
+		font-size: 14px;
+	}
+
+	.modal-desc {
+		text-align: center;
+	}
+
+	.logo {
+		height: 26px;
+		padding-top: 17px;
+	}
+
+	.logo-image {
+		height: 26px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	.offer-head {
+		text-align: left;
+		padding-left: 114px;
+		padding-top: 12px;
+		font-size: 20px;
+	}
+
+	.offer-description {
+		text-align: left;
+		padding-left: 114px;
+		font-size: 14px;
+		font-weight: 300;
+		padding-top: 4px;
+		text-transform: none;
+	}
+
+	.offers-container {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+
+	.counter {
+		width: 90%;
+	}
+
+	.counter-box {
+		width: 30%;
+	    margin-right: 5%;
+	}
+
+	.box-m {
+		margin-right: 0;
+	}
+
+	.step {
+		margin-bottom: 22px;
+	}
+
+	.step-text {
+		margin-left: 12px;
+		padding-top: 10px;
+		width: calc(100% - 80px - 12px);
+		font-size: 14px;
+	}
+}

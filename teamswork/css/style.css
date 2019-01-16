@@ -1,0 +1,102 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    height: 100%;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 100;
+}
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+a {
+    color: #4DB6AC;
+}
+.navigation {
+    background: rgb(255, 255, 255);
+    height: 75px;
+    top: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.back-icon {
+    float: left;
+    font-size: 16px;
+    color: #F44336;
+    height: 40px;
+    line-height: 40px;
+    background-image: url('../images/left-arrow.svg?');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+}
+.share-icon {
+    float: right;
+    background-image: url('../images/share.png');
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+}
+.parent {
+    background-color: rgb(245, 245, 245);
+    padding: 100px;
+    height: auto;
+}
+.copyright {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    margin-left: 50%;
+    left: -150px;
+    font-size: 10px;
+    line-height: 12px;
+    height: 20px;
+    width: 300px;
+    color: #333;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.lede-top {
+    position: relative;
+}
+.lede-image {
+    width: 700px;
+    float: left;
+}
+.lede-app {
+    width: 450px;
+    padding-left: 40px;
+    height: auto;
+    float: right;
+}
+.teamswork-img {
+    width: 100%;
+}
+.logo {
+    height: 25px;
+}
+.front-text {
+    font-family: 'Open Sans';
+    color: #333;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 300;
+}
