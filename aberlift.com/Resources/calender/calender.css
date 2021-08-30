@@ -1,0 +1,171 @@
+.calendar {
+position: absolute;
+background-color: rgb(255,255,255);
+display: block;
+font: 500 0.8em/30px "Roboto";
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+padding: 0 0 0 0;
+color: rgb(0,0,0,0.87); /*Dates color*/
+width:250px;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+z-index: 999;
+}
+.calendar .view {
+position: relative;
+float: left;
+}
+.calendar .nav {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+}
+.calendar .nav .btn {
+position: absolute;
+display: block;
+z-index: 1;
+cursor: pointer;
+cursor: hand;
+width: 32px;
+height: 32px;
+line-height: 31px;
+top: 0;
+left: auto;
+transition: opacity .5s;
+border-radius: 50%;
+}
+.calendar .nav .btn:hover {
+color: #808080;
+}
+.calendar .nav .prev {
+left: 0;
+}
+.calendar .nav .prev-year {
+opacity: 0;
+left: 32px;
+}
+.calendar .nav:hover .prev-year {
+opacity: 1;
+}
+.calendar .nav .next-year {
+opacity: 0;
+right: 32px !important;
+}
+.calendar .nav:hover .next-year {
+opacity: 1;
+}
+.calendar .nav .next {
+right: 0;
+}
+.calendar .head {
+}
+.calendar .head .title {
+font: 300 1.2em/32px "Roboto";
+position: relative;
+float: left;
+width: 100%;
+text-align: center;
+}
+.calendar .head span {
+cursor: pointer;
+}
+.calendar .row {
+clear: both;
+}
+.calendar .row.th {
+font-weight: 100;
+text-transform: uppercase;
+height: 40px;
+}
+.calendar .row.th .C {
+border-bottom: 1px solid rgba(0,0,0,0.12); /* Margin Line*/
+border-radius: 0;
+}
+.calendar .C {
+text-align: center;
+width: 35.7px;
+height: 35.7px;
+line-height: 35.7px;
+float: left;
+transition: background-color .05s, color .05s;
+border-radius: 50%;
+}
+.calendar .C.mn {
+cursor: pointer;
+cursor: hand;
+-webkit-transition: all 250ms;
+moz-transition: all 250ms;
+}
+.calendar .C.mn:hover {
+background: white; /* Hover Color */
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+}
+.calendar .C.mn:active {
+box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 6px 0 rgba(0, 0, 0, 0.23);
+}
+.calendar .C.g {
+color: rgba(0,0,0,0.26); /* Inactive Dates */
+font-weight: 300;
+}
+.calendar .C.slctd {
+background: #2196F3; /*Selected Color*/
+color: white;
+font-size: 1.15em;
+font-weight: 300;
+}
+.calendar .C.slctd:hover {
+color: rgba(0,0,0,0.87);
+}
+.calendar .C.today {
+font-weight: 700;
+font-size: 1.3em;
+}
+.calendar .selected {
+margin: 0 0 0 64px;
+float: right;
+text-align: center;
+width: 280px;
+}
+.calendar .selected .desc {
+border-bottom: 1px solid #c0c0c0; /*??*/
+}
+.calendar .selected .val {
+padding: 0 8px;
+background: #f0f0f0; /*???*/
+color: #808080; /*???*/
+}
+.calendar .dayArea {
+position: relative;
+width: 250px;
+height: 215px;
+overflow: hidden;
+}
+.calendar .dayArea .mArea {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.button-left-icon
+{
+	background-image:url('../svg/arrow_left.svg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:24px;
+}
+.button-right-icon
+{
+	background-image:url('../svg/arrow_right.svg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:24px;
+}

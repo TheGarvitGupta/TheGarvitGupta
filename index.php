@@ -34,7 +34,7 @@
 		</script>
 		
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-		<link href='css/global.css?refresh=1' rel='stylesheet' type='text/css'>		
+		<link href='css/global.css?refresh=3' rel='stylesheet' type='text/css'>		
 		<link href='css/work.css?refresh=yes&time=1' rel='stylesheet' type='text/css'>
 		<link href='css/responsive.css?refresh=yes&time=1' rel='stylesheet' type='text/css'>
 
@@ -43,7 +43,7 @@
 		<link href='css/css-loader.css' rel='stylesheet' type='text/css'>
 		<link href='css/animate.css' rel='stylesheet' type='text/css'>		
 		
-		<title>Garvit Gupta - University of Pennsylvania</title>
+		<title>Garvit Gupta / Apple</title>
 
 		<!-- Favicons -->
 
@@ -65,13 +65,13 @@
 
 		<meta property="og:url"                content="https://www.garvitgupta.com/" />
 		<meta property="og:title"              content="Garvit Gupta" />
-		<meta property="og:description"        content="Masters in computer science at University of Pennsylvania. Interested in Distributed Systems, Databases, and Cloud Platforms. Lives in Philadelphia, United States of America" />
+		<meta property="og:description"        content="Software Engineer at Apple. Master's in computer science at University of Pennsylvania. San Francisco Bay Area." />
 		<meta property="og:image"              content="https://www.garvitgupta.com/images/Share/Facebook/FacebookOG.jpg?refresh=1" />
 
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@TheGarvitGupta">
 		<meta name="twitter:title" content="Garvit Gupta">
-		<meta name="twitter:description" content="Masters in computer science at University of Pennsylvania. Interested in Distributed Systems, Databases, and Cloud Platforms. Lives in Philadelphia, United States of America">
+		<meta name="twitter:description" content="Software Engineer at Apple. Master's in computer science at University of Pennsylvania. San Francisco Bay Area.">
 		<meta name="twitter:image" content="https://www.garvitgupta.com/images/Share/Twitter/TwitterOG.png">
 
 	</head>
@@ -97,8 +97,20 @@
 		<div class="home-page">
 			<div style="z-index:100000" class="introduction">
 				<div class="name">GARVIT GUPTA</div>
-				<div class="designation">⚡ Software Engineer</div>
+				<div class="designation"> Software Engineer</div>
 			</div>
+			<a class="spotify-link" href="" target="_blank">
+				<div style="z-index:100000" class="spotify">
+					<div class="spotify-album-art"></div>
+					<div class="spotify-music-track"></div>
+					<div class="spotify-music-artist"></div>
+					<div class="spotify-device">Listening on Garvit's iPhone</div>
+					<div class="spotify-music-bar">
+						<div class="spotify-length"></div>
+						<div class="spotify-progress"></div>
+					</div>
+				</div>
+			</a>
 			<div id="particles-js" style="height:100%;"></div>
 			<a href="#about">
 				<div class="downButton">
@@ -1030,22 +1042,22 @@
 				</div>
 				<div class="clearfix">
 					<div class="about-text">
-						<p class="" style="display: inline">Hello! I am a grad student at the </p>
-						<a class="upenn" style="display: inline" target="_blank" href="https://www.cis.upenn.edu/prospective-students/graduate/mse.php">University of Pennsylvania,</a>
-						<p class="" style="display: inline">doing a master's in computer science. I'm passionate about delivering incredible experience through the products I build.</p><p></p>
+						<p class="" style="display: inline">Hello! I am a software engineer at Apple. I graduated with a master's in computer science from </p>
+						<a class="*upenn" style="display: inline; text-decoration: none; color: #333" target="_blank" href="https://www.cis.upenn.edu/prospective-students/graduate/mse.php">University of Pennsylvania.</a>
+						<p class="" style="display: inline">I'm passionate about delivering incredibly detailed and intuitive experiences through the products I build.</p><p></p>
 
-						<p class="" style="display: inline">I have collaborated with teams from Nokia and Microsoft to build one of the top downloaded apps on the</p>
-						<a class="windows" style="display: inline" target="_blank" href="/status-tiles/">Windows</a>
-						<p class="" style="display: inline">platform. I work with universities and multinational organizations to understand problems and develop products to solve them.</p>
+						<p class="" style="display: inline">Previously, I have collaborated with teams from Nokia and Microsoft to build one of the top downloaded apps on the</p>
+						<a class="*windows" style="display: inline; text-decoration: none; color: #333" target="_blank" href="/status-tiles/">Windows</a>
+						<p class="" style="display: inline">platform. I have also built products for universities and organizations that understand and solve their problems.</p>
 
-						<p>I recently completed my goal of biking a thousand kilometers. Now I'm setting up to a thousand kilometers of run for 2019! 🎉</p>
+						<p>I am running a thousand kilometers this year. Keep me on track? 🌈</p>
 						
 						<div title=""> <!-- PHP Update | Strava -->
 							<div class="cycle-bar">
 								<div class="cycle-icon" style="left:100%">🚲</div> <!-- PHP Update | Strava -->
 								<div class="completed-bar" style="width:100%"></div> <!-- PHP Update | Strava -->
 								<div class="bar-min">0</div>
-								<div class="bar-max">1,000</div>
+								<div class="bar-max">1k</div>
 							</div>
 							<div class="run-bar">
 								<?php
@@ -1056,6 +1068,9 @@
 									echo "<div class='bar-min' style='left: " . $number . "%'>" . $number . "%</div>";
 									// <!-- <div class='bar-max'>200 * 5</div> -->
 								?>
+									<div class="bar-min">0</div>
+									<div class="bar-max">1k</div>
+
 							</div>
 						</div>
 
@@ -1332,6 +1347,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<!-- Spotify realtime stream -->
+	<script type="text/javascript" src="js/spotify.js?refresh=1"></script>
 	<!-- Run to display -->
 	<script src="polylion-execute.js"></script>
 	<!-- All Loaders with scroll animations -->
@@ -1363,5 +1380,5 @@
 	      "https://www.linkedin.com/in/garvitgupta",
 	      "hhttps://www.twitter.com/thegarvitgupta"] 
 	}
-	</script>	
+	</script>
 </html>
