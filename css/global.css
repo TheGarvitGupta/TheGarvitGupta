@@ -136,7 +136,7 @@ input {
     content: 'Photographs';
 }
 #work::before {
-    content: 'Work';
+    content: 'School projects';
 }
 #contactMe::before {
     content: "Let's Talk";
