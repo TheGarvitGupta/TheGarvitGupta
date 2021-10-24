@@ -31,6 +31,11 @@ jQuery(window).load(function () {
 			$(".nav-dot").eq(3).addClass("animated fadeInRight");
 		}, 1100
 	);
+	setTimeout(
+		function(){
+			$(".nav-dot").eq(4).addClass("animated fadeInRight");
+		}, 1300
+	);
 	
 	
 	setTimeout(

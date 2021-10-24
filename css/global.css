@@ -29,10 +29,10 @@ input {
     position: fixed;
     top: 50%;
     right: 0;
-    margin-top: -65px;
+    margin-top: -80px;
     z-index: 100;
     width: 15px;
-    height: 120px;
+    height: 150px;
     margin-right: 20px;
 }
 .nav-dot {
@@ -132,11 +132,11 @@ input {
 #aboutMe::before {
     content: "Hey there!";
 }
+#life::before {
+    content: 'Photographs';
+}
 #work::before {
     content: 'Work';
-}
-#testimonials::before {
-    content: "They Say";
 }
 #contactMe::before {
     content: "Let's Talk";
@@ -937,4 +937,87 @@ input {
     -webkit-filter: FlipH;
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+
+/* Gallery */
+
+.gallery {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: auto;
+}
+
+.box-container {
+    float: left;
+    overflow: hidden;
+}
+
+.one-box-container {
+    width: calc(496px - 2px);
+    height: calc(372px - 2px);
+}
+
+.one-box-container .image-container {
+    height: 100%;
+    width: 100%;
+}
+
+.six-box-container {
+    width: 744px;
+    height: calc(372px - 2px);
+    margin-left: 2px;
+}
+
+.six-box-container .image-container {
+    height: calc(50% - 1px);
+    width: calc(33.33% - 1.33px);
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.six-box-container .image-container:nth-child(3) {
+    margin-right: 0px;
+}
+
+.six-box-container .image-container:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+.six-box-container .image-container:nth-child(5) {
+    margin-bottom: 0px;
+}
+
+.six-box-container .image-container:nth-child(6) {
+    margin-right: 0px;
+}
+
+.fiv-box-container {
+    width: 1240px;
+    height: 186px;
+    margin-top: 2px;
+}
+
+.fiv-box-container .image-container {
+    height: 100%;
+    width: calc(20% - 1.6px);
+    float: left;
+    margin-right: 2px;
+}
+
+.fiv-box-container .image-container:nth-child(5) {
+    margin-right: 0px;
+}
+
+.image-container {
+    background-color: rgb(150, 150, 150);
+    overflow: hidden;
+}
+
+.image-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
