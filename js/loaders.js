@@ -84,14 +84,6 @@ $(window).scroll(function (event) {
 		$('.text-1-ed').eq(4).addClass("animated fadeInDown");
 		$('.lede-button').eq(4).addClass("animated fadeInLeft");				
 	}
-	if (($('.lede-parent').eq(5).offset().top - scroll - window.innerHeight) <= -300)
-	{
-		$('.lede-image').eq(5).addClass("animated fadeIn");
-		$('.text-3-ed').eq(5).addClass("animated fadeInDown");
-		$('.text-2-ed').eq(5).addClass("animated fadeInDown");
-		$('.text-1-ed').eq(5).addClass("animated fadeInDown");
-		$('.lede-button').eq(5).addClass("animated fadeInLeft");				
-	}	
 
 	/* Garvit Gupta image loader */
 	if (($('.garvit-gupta').offset().top - scroll - window.innerHeight) <= -300)
