@@ -2,8 +2,8 @@
 <html>
 <head>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<meta charset="utf-8">
 	<meta name="author" content="Garvit Gupta">
@@ -16,23 +16,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 	<title>Garvit Gupta / AberLift</title>
-
-	<!-- Favicons -->
-
-	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">		
@@ -47,7 +30,7 @@
 
 	<div class="display">
 		<div class="logo">
-			<img src="logo.svg" class="logo-image flip">
+			<img src="images/logo.svg" class="logo-image flip">
 			<div class="logo-text">AberLift</div>
 		</div>
 		<div class="clearfix left-design">
@@ -65,13 +48,13 @@
 		<div class="hero-numbers">&nbsp&nbsp13
 			<div class="hero-text">campuses and dorms connected</div>
 		</div>
-		<img src="map-3.png" class="map-image">
+		<img src="images/map-3.png" class="map-image">
 	</div>
 
 	<div class="screenshots clearfix">
-		<div style="background-image: url('screens/tv0.png');background-repeat: no-repeat;background-size:contain;color:rgba(255,255,255,0.85);font-weight:400;font-family: Open Sans;font-size: 22px;">
+		<div style="background-image: url('images/screens/tv0.png');background-repeat: no-repeat;background-size:contain;color:rgba(255,255,255,0.85);font-weight:400;font-family: Open Sans;font-size: 22px;">
 			<div id="screenshot-parent" class="screenshot-parent">
-				<img style="opacity:0; width:100%;" src="screens/tv1.png">
+				<img style="opacity:0; width:100%;" src="images/screens/tv1.png">
 			</div>
 		</div>
 
@@ -84,7 +67,7 @@
 	<script type="text/javascript">
 	  	$(window).load(function() {           
 		  	var i =0; 
-		  	var images = ['screens/tv1.png','screens/tv2.png','screens/tv3.png','screens/tv4.png','screens/tv5.png'];
+		  	var images = ['images/screens/tv1.png','images/screens/tv2.png','images/screens/tv3.png','images/screens/tv4.png','images/screens/tv5.png'];
 		  	var image = $('#screenshot-parent');
 			setInterval(function(){
 				image.css('background-image', 'url(' + images [i++] +')');
@@ -99,16 +82,16 @@
 		/* prefetch images */
 
 		Image2= new Image(1200,690);
-		Image2.src = "screens/tv2.png";
+		Image2.src = "images/screens/tv2.png";
 
 		Image3= new Image(1200,690);
-		Image3.src = "screens/tv3.png";
+		Image3.src = "images/screens/tv3.png";
 
 		Image4= new Image(1200,690);
-		Image4.src = "screens/tv4.png";
+		Image4.src = "images/screens/tv4.png";
 
 		Image5= new Image(1200,690);
-		Image5.src = "screens/tv5.png";
+		Image5.src = "images/screens/tv5.png";
 	</script>
 	<!-- Google Analytics -->
 	<script>

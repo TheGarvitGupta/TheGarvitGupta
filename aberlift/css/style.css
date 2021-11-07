@@ -9,7 +9,7 @@ body {
     font-weight: 100;
 }
 body {
-    background-image: url("aberlift-background.jpg");
+    background-image: url("../images/aberlift-background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +31,7 @@ a {
     color: rgb(0, 149, 247);
     height: 40px;
     line-height: 40px;
-    background-image: url('left-arrow.svg');
+    background-image: url('../images/left-arrow.svg');
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 0% 50%;
@@ -43,7 +43,7 @@ a {
 }
 .share-icon {
     float: right;
-    background-image: url('share.png');
+    background-image: url('../images/share.png');
     background-size: 40px;
     height: 40px;
     width: 40px;
@@ -83,7 +83,7 @@ a {
 }
 .hero-numbers {
     font-weight: 100;
-    background-image: url("marker.png");
+    background-image: url("../images/marker.png");
     background-size: 52.5px;
     background-position: 0px 53px;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ a {
     color: #333;
     font-family: "Open Sans";
     font-weight: 400;
-    background-image: url("design-right.jpg");
+    background-image: url("../images/design-right.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-position-y: top;
@@ -157,7 +157,7 @@ a {
     margin-bottom: 50px;
     height: auto;
     width: auto;
-    background-image: url("left-design.jpg");
+    background-image: url("../images/left-design.jpg");
     background-position: left;
     background-size: contain;
     background-repeat: repeat-y;
@@ -202,7 +202,7 @@ a {
     position: relative;
 }
 .screenshot-parent {
-    background-image: url("screens/tv1.png");
+    background-image: url("../images/screens/tv1.png");
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-transition: 0.5s ease-in-out;
