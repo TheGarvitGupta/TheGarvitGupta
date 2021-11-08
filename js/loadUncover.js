@@ -2,7 +2,6 @@ jQuery(window).load(function () {
 	
 	$(".cover" ).css("opacity","0");
 	$(".name" ).css("text-shadow","5px 5px 25px rgba(0,0,0,0.35)");
-	$(".designation" ).css("text-shadow","5px 5px 25px rgba(0,0,0,0.35)");
 
 	/* Shouldn't make the user wait for 1500 seconds to scroll. Let them scroll earlier if they are desparate */
 	setTimeout(
