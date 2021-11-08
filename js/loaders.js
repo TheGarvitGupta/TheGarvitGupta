@@ -22,7 +22,7 @@ $(window).scroll(function (event) {
 		$('#dev-profile').css("position","fixed");
 		$('#dev-profile').css("top","50px");
 		$('#dev-profile').css("bottom","auto");
-		$('#dev-profile').css("right","100px");
+		$('#dev-profile').css("transform","translateX(1010px)");
 	}
 
 	else
@@ -30,6 +30,7 @@ $(window).scroll(function (event) {
 		$('#dev-profile').css("position","static");
 		$('#dev-profile').css("top","auto");
 		$('#dev-profile').css("right","auto");
+		$('#dev-profile').css("transform","none");
 	}
 
 	/* Fix and release from Bottom */
@@ -40,7 +41,8 @@ $(window).scroll(function (event) {
 		$('#dev-profile').css("display","block");
 		$('#dev-profile').css("bottom","0px");
 		$('#dev-profile').css("top","auto");
-		$('#dev-profile').css("right","0px");
+		$('#dev-profile').css("right","none");
+		$('#dev-profile').css("transform","translateX(1010px)");
 	}
 
 	/* Float lede up on sroll */
