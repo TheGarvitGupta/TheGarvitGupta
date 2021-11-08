@@ -48,6 +48,7 @@
         left: auto !important;
         right: auto !important;
         width: auto !important;
+        transform:  none !important;
         padding: 20px;
         padding-bottom: 0px;
         overflow-x: scroll;
